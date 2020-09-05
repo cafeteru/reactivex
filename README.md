@@ -28,4 +28,9 @@
 ## Diagramas de canicas
 
 Son los diagramas usado en la documentación oficial de ReactiveX.
-![Esquema de diagrama de canicas](img/Esquema-diagrama-canicas.png)
+![Esquema de diagrama de canicas](assets/img/Esquema-diagrama-canicas.png)
+
+## Funciones de Subscribers
+
+- next(): emite un dato.
+- complete(): finaliza la emisión de datos, si llamamos a la función next, no funcionará
