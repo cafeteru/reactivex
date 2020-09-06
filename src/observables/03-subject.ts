@@ -14,6 +14,9 @@ const observable$ = new Observable<string>(subs => {
 });
 
 /**
+ * Sirve para guardar la referiencia a un observable.
+ * Es decir, se devuelve el mismo observable en todas las subscripciones.
+ * 
  * Propiedades del Subject:
  * 1. Casteo múltiple
  * 2. También es un observer

@@ -32,5 +32,5 @@ Son los diagramas usado en la documentación oficial de ReactiveX.
 
 ## Funciones de Subscribers
 
-- next(): emite un dato.
-- complete(): finaliza la emisión de datos, si llamamos a la función next, no funcionará
+- `next()`: emite un dato.
+- `complete()`: finaliza la emisión de datos. Si llamamos a la función `next()`, no funcionará
