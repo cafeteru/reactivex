@@ -34,3 +34,9 @@ Son los diagramas usado en la documentación oficial de ReactiveX.
 
 - `next()`: emite un dato.
 - `complete()`: finaliza la emisión de datos. Si llamamos a la función `next()`, no funcionará
+
+## Funcionamiento de prueba de los concepto
+
+- Ejecutar `npm install` nada más clonar el repositorio para instalar las dependecias.
+- Copiar el contenido del fichero que queramos probar dentro de `index.ts`.
+- Ejecutamos el comando `npm run start`
