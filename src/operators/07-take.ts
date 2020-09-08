@@ -3,7 +3,7 @@ import { take, tap } from 'rxjs/operators';
 
 /**
  * Take: selecciona el número de datos que le indicamos 
- * y para el observable
+ * y detiene el observable
  */
 range(1, 80).pipe(
     tap(console.log),
