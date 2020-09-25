@@ -9,7 +9,7 @@
   - Pueden ser infinitos o finitos.
   - Pueden ser síncronos o asíncronos.
 - Subscribers:
-  - Se subscribgen a un observable, es decir, estan pendientes de lo que realiza el observable.
+  - Se subscriben a un observable, es decir, están pendientes de lo que realiza el observable.
   - Consumen/observan la información del observable.
   - Pueden recibir los errores y eventos del observable.
   - Desconocen todo lo que se encuentra detrás del observable.
