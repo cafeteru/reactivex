@@ -7,6 +7,7 @@ import { map, mapTo, pluck } from 'rxjs/operators';
  * 
  * map: modifica todos los valores del flujo de datos
  */
+console.warn('map');
 range(1, 5).pipe(
     map<number, string>(value => `Valor final: ${value * 10}`)
 ).subscribe(console.log);
@@ -21,6 +22,7 @@ keyupCode$.subscribe((val) => console.log(`map: ${val}`));
 /**
  * pluck: devuelve el valor de una propiedad de un objeto
  */
+console.warn('pluck');
 const keyUpPluck$ = keyup$.pipe(
     pluck('path', '0', 'localName')
 );
@@ -29,6 +31,7 @@ keyUpPluck$.subscribe((val) => console.log(`pluck: ${val}`));
 /**
  * mapTo: tranforma la entrada en una salida especifica
  */
+console.warn('mapTo');
 const keyUpMapTo$ = keyup$.pipe(
     mapTo('tecla presionada')
 );
